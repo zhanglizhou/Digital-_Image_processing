@@ -1,0 +1,23 @@
+import numpy as np
+import cv2
+
+img = cv2.imread('', 0) 
+cv2.namedwindows('image', WINDOW_NORMAL) #可调整大小的输出
+cv2.waitKey(0)                           #等待无限时间，直到键盘有输出结束
+cv2.destoryAllWindows()
+cv2.imwrite('.png', img)
+
+k = cv2.waitKey(0)
+if k == 27:
+  ...
+ elif k = ord('s')
+  ...
+  
+  
+  
+from matplotlib import pyplot as plt
+
+plt.imshow(img, cmap = 'red', interpolation = 'bicubic')
+plt.xticks([]) plt.yticks([])
+plt.show()
+
